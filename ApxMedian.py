@@ -5,7 +5,7 @@ def ApxMedian(A,k,e=False):
     """
     Fast approximate median of A, using k samples. If e=True, finds a k such
     that the approximate median will be returned with error bounded by
-    max(Ae, |1-Ae|).
+    max(ne, |1-ne|).
     """
     num_samples = k
     if e:
